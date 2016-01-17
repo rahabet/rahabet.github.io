@@ -1,5 +1,6 @@
 body{
   background-color: #EDEBE8;
+
 }
 .clear{
   clear:both;
@@ -126,14 +127,15 @@ footer {
   clear:both;
   width:100%;
   float:left;
-  position:relative;
-  padding: 0.5em;
+
+  padding: 0.3em;
   margin-left: -1em;
   margin-top:1em;
   background-color: #A8A8A8;
   border-radius: 0.5em;
   border: 1px solid #DEDCD9;
 }
+
 footer ul{
   list-style: none;
   padding: 0;
