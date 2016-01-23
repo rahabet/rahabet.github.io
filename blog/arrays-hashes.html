@@ -35,7 +35,7 @@
 
      <p><code style="color: red">favorite_food = [‘fish’,’salad,’chicken’]</code></p>
   <p>
-     so what does integer-indexed means? to help us find a particular object in an array, each slot is given an index number or keys starting from 0 like ( <span style= "color:red">[0]</span> = fish, <span style= "color:red">[1]</span> = salad etc). The first element is always <span style= "color:red">[0]</span> and <span style= "color:red">[1]</span> is always the second element, etc. we can use the keys in order to access the elements in array.
+     so what does integer-indexed means? to help us find a particular object in an array, each slot is given an index number or keys starting from 0 like ( <span style= "color:red">[0]</span> = fish, <span style= "color:red">[1]</span> = salad etc). The first element is always <span style= "color:red">[0]</span> and <span style= "color:red">[1]</span> is always the second element, etc. we can use the keys in order to access the elements in array:
   </p>
 
      <p><code style="color: red"> favorite_food [0] = ‘fish’ </code><br>
@@ -43,7 +43,7 @@
      <code style="color: red">favorite_food [2] = ‘chicken’</code></p>
      <br>
   <p>
-     Ruby lets us to apply different methods on an array. for example we can use ‘.count’ method in order to know how many elements we have in an array in this case
+     Ruby lets us to apply different methods on an array. for example we can use <span style= "color:red">.count</span> method in order to know how many elements we have in an array in this case
   </p>
      <p><code style="color: red">favorite_food.count = 3 .</code></p>
      <p>
@@ -58,10 +58,11 @@
   </p>
     <p><code style="color: red">favorite_movies = { “shane” => “a walk to remember”, “Liam” => “taken”, “tatum" => “dear john” } </code></p>
   <p>
-     when creating a hash, we simple use <span style= "color:red">{ }</span>. Hashes requires use of <span style= "color:red"> => </span>  called rocket to assign the value on the right side of the rocket to the key on the left side. To access values within the hash, you have to specify the name of the hash, along with the key for the value you are trying to access.
+     when creating a hash, we simple use <span style= "color:red">{ }</span>. Hashes requires use of <span style= "color:red"> => </span>  called rocket to assign the value on the right side of the rocket to the key on the left side.To access values within the hash, you have to specify the name of the hash, along with the key for the value you are trying to access.
+     <p><code style="color: red"> favorite_movies ["shane"] = a walk to remember </code></p>
   </p>
   <p>
-     From the above example, if we want only to get the values of the keys we simply can use favorite_movies.keys returns all the keys and same goes for the values too.
+     From the above example, if we want only to get the values of the keys we simply can use <code style="color: red">favorite_movies.keys</code> returns all the keys and same goes for the values too.
   </p>
   <p>
      Both arrays and hashes are good on their own way and when to use which depends on what we actually is looking. for example if I create an array which explains my name, last name, gender, eye color…lets say
