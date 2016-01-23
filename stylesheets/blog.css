@@ -41,6 +41,16 @@ header a {
 header a:hover {
   color:#0000FF;
 }
+section {
+  float: left;
+  position:absolute;
+  padding: 1.5em;
+  width:55%;
+  margin-top: 1.5em;
+  margin-right:1.5em;
+  margin-bottom:1.5em;
+  text-align: justify;
+}
 
 main h1{
   font-size: 18px;
@@ -57,7 +67,7 @@ main h4{
   padding-bottom: 0;
 }
 main section p{
-  line-height: 1.5;
+  line-height: 2.0;
   text-align: justify;
   margin-top: 0;
 
@@ -106,34 +116,4 @@ aside article a {
   text-decoration: none;
   color:#707070;
   font-size: 14px;
-}
-footer {
-  clear:both;
-  width:100%;
-  float:left;
-
-
-
-  background-color: #A8A8A8;
-  border-radius: 0.5em;
-  border: 1px solid #DEDCD9;
-}
-footer ul{
-  list-style: none;
-  padding: 0;
-  margin:0;
-}
-footer ul li{
-  margin-right: 1.5em;
-  display:inline;
-}
-footer a {
-  color: #777;
-  text-decoration: none;
-  margin-top: 1em;
-}
-footer p{
-  float:right;
-  margin:0 auto;
-  padding:0;
 }
