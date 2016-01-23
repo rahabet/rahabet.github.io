@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Blog</title>
+    <meta charset ="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../stylesheets/blog.css" type="text/css">
+
+
+  </head>
+  <body>
+    <div id="wrapper">
+      <header><img src="../imgs/geico-logo.png" alt="Beth">
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="blog.html"> Blog</a></li>
+            <li><a href="project.html"> Project</a></li>
+            <li><a href="resume.html"> Resume</a></li>
+            <li><a href="contact.html"> Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+   <main>
+  <h1>Arrays and Hashes</h1>
+  <h4>01/22/2016</h4>
+
+  <section>
+    <p>
+      <h4 style= "text-align:left"> Arrays </h4>
+      <br>
+
+      An array is an ordered, integer-indexed collection of objects. To simplify what that means for example lets take a list of food we like, it can be fish, salad, chicken or anything so an array is just a container to hold all our favorite food.
+  </p>
+
+     <p><code style="color: red">favorite_food = [‘fish’,’salad,’chicken’]</code></p>
+  <p>
+     so what does integer-indexed means? to help us find a particular object in an array, each slot is given an index number or keys starting from 0 like ( <span style= "color:red">[0]</span> = fish, <span style= "color:red">[1]</span> = salad etc). The first element is always <span style= "color:red">[0]</span> and <span style= "color:red">[1]</span> is always the second element, etc. we can use the keys in order to access the elements in array.
+  </p>
+
+     <p><code style="color: red"> favorite_food [0] = ‘fish’ </code><br>
+     <code style="color: red"> favorite_food [1] = ‘salad’ </code><br>
+     <code style="color: red">favorite_food [2] = ‘chicken’</code></p>
+     <br>
+  <p>
+     Ruby lets us to apply different methods on an array. for example we can use ‘.count’ method in order to know how many elements we have in an array in this case
+  </p>
+     <p><code style="color: red">favorite_food.count = 3 .</code></p>
+     <p>
+     <h4 style= "text-align:left"> Hashes </h4>
+    <br>
+
+     Hashes are an unordered, object-indexed collection of objects (or key-value pairs)
+     It is a collection of “key-value pairs. A key-value pair is a combination of the name of a container ( i.e the key ) and the contents of the container ( i.e the value).
+  </p>
+  <p>
+     for example if I want to explain about the movies that i like along with the actors I will write it like
+  </p>
+    <p><code style="color: red">favorite_movies = { “shane” => “a walk to remember”, “Liam” => “taken”, “tatum" => “dear john” } </code></p>
+  <p>
+     when creating a hash, we simple use <span style= "color:red">{ }</span>. Hashes requires use of <span style= "color:red"> => </span>  called rocket to assign the value on the right side of the rocket to the key on the left side. To access values within the hash, you have to specify the name of the hash, along with the key for the value you are trying to access.
+  </p>
+  <p>
+     From the above example, if we want only to get the values of the keys we simply can use favorite_movies.keys returns all the keys and same goes for the values too.
+  </p>
+  <p>
+     Both arrays and hashes are good on their own way and when to use which depends on what we actually is looking. for example if I create an array which explains my name, last name, gender, eye color…lets say
+  </p>
+    <p><code style="color: red">person = [ “Beth”, “Tad”, “Female”, “Blue”] </code></p>
+  <p>
+     Now we don’t know if blue is standing for my eye color or the cloth am wearing so in this case is better to create hashes
+  </p>
+      <p><code style="color: red">person = {‘first_name’ => ‘Beth’, ‘last_name’ => ‘Tad’ , ‘gender’  => ‘Female’, ‘eye-color’ => ‘Blue’} </code></p>
+    <p>
+      They both are  accessible using a key. With arrays, the key is an integer, whereas hashes support any object as a key. Both arrays and hashes grow as needed to hold new elements. It's more efficient to access array elements, but hashes provide more flexibility. Any particular array or hash can hold objects of differing types; you can have an array or hash containing an integer, a string, and a floating point number.
+    </p>
+  </section>
+</main>
+  <aside>
+      <article>
+          <h3>Subscribe!<h3>
+          <a href="http://www.facebook.com"><img src="../imgs/facebook.png" alt="facebook"/> <a href="http://www.facebook.com">Add me on facebook</a><br>
+          <a href="http://www.twitter.com/rahabett"><img src="../imgs/twitter.png" alt="twitter"/> <a href="http://www.twitter.com/rahabett">Follow me on twitter</a> <br>
+          <a href="http://www.linkedin.com"><img src="../imgs/Linkedin.png" alt="Linkedin"/> <a href="http://www.linkedin.com"> Find me on linkedin</a>
+        </article>
+        <article>
+          <h3>Popular Posts</h3>
+          <p>the link for the latest post goes here</p>
+        </article>
+    </aside>
+   <!--  <footer>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="blog.html"> Blog</a></li>
+            <li><a href="project.html"> Project</a></li>
+            <li><a href="resume.html"> Resume</a></li>
+            <li><a href="contact.html"> Contact</a></li>
+          </ul>
+        <p>Copyright &copy;2016 Bethelhem </p>
+        <div class="clear"></div>
+        </nav>
+    </footer> -->
+    </div>
+  </body>
+</html>
