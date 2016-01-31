@@ -94,6 +94,16 @@ h4{
   list-style-type: square;
   margin-left: 3em;
 }
+form h1{
+  text-align: center;
+}
+form textarea{
+  background-color: #F2F2F2;
+}
+form input{
+  background-color: #F2F2F2;
+}
+
 aside {
   float: right;
   position: relative;
