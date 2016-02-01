@@ -24,7 +24,8 @@ header {
 header img{
   float: left;
   height:auto;
-  width:20%;
+  max-width:15%;
+  background-size:auto;
 }
 header ul {
   list-style:none;
