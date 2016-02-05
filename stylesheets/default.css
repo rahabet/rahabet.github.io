@@ -23,6 +23,11 @@ h1,h2,h3{
   padding:0.1% 5% 0 0;
   color:#F1F0D1;
 }
+#site p a{
+  text-decoration:none;
+  color:#F1F0D1;
+}
+
 header{
   width:96%;
   min-height:5em;
