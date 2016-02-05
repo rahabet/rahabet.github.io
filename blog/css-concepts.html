@@ -1,74 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Blog</title>
-    <meta charset ="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../stylesheets/default.css" type="text/css">
-    <link rel="stylesheet" href="../stylesheets/blog.css" type="text/css">
-  </head>
-  <body>
+<html>
+<head>
+  <meta charset ="UTF-8"/>
+  <title>Home</title>
+  <meta name="viewport" content= "width=divice-width", initial-scale="1.0">
+  <link rel="stylesheet" href="../stylesheets/blog.css" type="text/css">
+  <link rel="stylesheet" href="../stylesheets/default.css" type="text/css">
+</head>
+<body>
     <div id="wrapper">
+      <div id="site">
+        <p>Welcome </p>
+      </div>
       <header>
-        <img src="../imgs/bet.png" alt="Beth">
-        <nav>
-          <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="../portfolio.html"> Portfolio</a></li>
-            <li><a href="../blog.html"> Blog</a></li>
-            <li><a href="../contact.html"> Contact</a></li>
-          </ul>
-        </nav>
+        <img src="../imgs/be.png" alt="Beth"/>
       </header>
-<main>
-  <h1>Best practices associated with using classes vs. ids</h1>
-  <h4>01/14/2016</h4>
-  <section>
-    <p>
-      In css, we use ID’s and classes to addresses elements. ID’s and classes, by themselves, don’t have any styling information to them but we can apply styling by targeting them using css. confused? ok let’s define what they means.
-    </p>
-    <p>
-      ID’s are unique. meaning that an element can only have one ID, where as, classes are not unique. you can apply some class on multiple elements or multiple classes on a same element. when you have one element that requires a certain kind of styling, then ID’s are great to use but when you have a lot of elements that should receive the same styling, classes are better in use.
-    </p>
-    <p>
-      I read this example on internet when I was browsing to understand them better. take a laptop in store for example, they have barcode and serial number. The serial number is a number which is unique to every laptop like ID’s but the barcode is something that the store puts on the package to identify a certain group of laptops for the purpose of identifying price, color, product type etc. same barcode is used for many laptops of same type like classes.
-    </p>
-    <p>
-      To summarize, informations that are reusable should be kept in classes and the ones that are unique should be in an ID.
-    </p>
-  </section>
-</main>
-  <aside>
-      <article>
-          <h3>Subscribe!</h3>
-          <a href="http://www.twitter.com/rahabett"><img src="../imgs/twitter.png" alt="twitter"/></a>
-          <a href="http://www.twitter.com/rahabett">Follow me on twitter</a>
-          <br>
-          <a href="http://www.linkedin.com"><img src="../imgs/Linkedin.png" alt="Linkedin"/></a>
-          <a href="http://www.linkedin.com"> Find me on linkedin</a>
-          <br>
-          <a href="https://github.com/rahabet"><img src="../imgs/github.png" alt="Github"/></a>
-          <a href="https://github.com/rahabet"> Github</a>
-        </article>
-        <article>
-          <h3>Popular Posts</h3>
-          <p>the link for the latest post goes here</p>
-        </article>
-    </aside>
-   <!--  <footer>
-        <nav>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="blog.html"> Blog</a></li>
-            <li><a href="project.html"> Project</a></li>
-            <li><a href="resume.html"> Resume</a></li>
-            <li><a href="contact.html"> Contact</a></li>
-          </ul>
-        <p>Copyright &copy;2016 Bethelhem </p>
+      <nav>
+        <ul>
+          <li class= "active"><a href="index.html">Home</a></li>
+          <li><a href="portfolio.html"> Portfolio</a></li>
+          <li><a href="blog.html"> Blog</a></li>
+          <li><a href="contact.html"> Contact</a></li>
+        </ul>
         <div class="clear"></div>
-        </nav>
-    </footer> -->
+      </nav>
+      <section class="text">
+        <h4> Classes vs Ids in Ruby </h4>
+        <p>
+          In css, we use ID’s and classes to addresses elements. ID’s and classes, by themselves, don’t have any styling information to them but we can apply styling by targeting them using css. confused? ok let’s define what they means.
+        </p>
+        <p>
+          ID’s are unique. meaning that an element can only have one ID, where as, classes are not unique. you can apply some class on multiple elements or multiple classes on a same element. when you have one element that requires a certain kind of styling, then ID’s are great to use but when you have a lot of elements that should receive the same styling, classes are better in use.
+        </p>
+        <p>
+          I read this example on internet when I was browsing to understand them better. take a laptop in store for example, they have barcode and serial number. The serial number is a number which is unique to every laptop like ID’s but the barcode is something that the store puts on the package to identify a certain group of laptops for the purpose of identifying price, color, product type etc. same barcode is used for many laptops of same type like classes.
+        </p>
+        <p>
+          To summarize, informations that are reusable should be kept in classes and the ones that are unique should be in an ID.
+        </p>
+      </section>
+      <footer>
+        <div class="footer">
+          <p>Connect with me </p>
+          <ul>
+            <li><a href="http://www.github.com/rahabet"><img src="../imgs/github.png" alt="github"/></a></li>
+            <li><a href="http://www.twitter.com/rahabett"><img src="../imgs/twitter.png" alt="twitter"/></a></li>
+            <li><a href="http://www.linkedin.com/rahabett"><img src="../imgs/linkedin.png" alt="linkedin"/></a></li>
+          </ul>
+        </div>
+      </footer>
     </div>
-  </body>
+      <p style="text-align:center; padding:0px;">Copyright &copy;2016 Bethelhem </p>
+</body>
 </html>
 

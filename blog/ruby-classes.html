@@ -1,97 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Blog</title>
-    <meta charset ="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../stylesheets/default.css" type="text/css">
-    <link rel="stylesheet" href="../stylesheets/blog.css" type="text/css">
-  </head>
-  <body>
+<html>
+<head>
+  <meta charset ="UTF-8"/>
+  <title>Home</title>
+  <meta name="viewport" content= "width=divice-width", initial-scale="1.0">
+  <link rel="stylesheet" href="../stylesheets/blog.css" type="text/css">
+  <link rel="stylesheet" href="../stylesheets/default.css" type="text/css">
+</head>
+<body>
     <div id="wrapper">
+      <div id="site">
+        <p>Welcome </p>
+      </div>
       <header>
-        <img src="../imgs/bet.png" alt="Beth">
-        <nav>
-          <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="../portfolio.html"> Portfolio</a></li>
-            <li><a href="../blog.html"> Blog</a></li>
-            <li><a href="../contact.html"> Contact</a></li>
-          </ul>
-        </nav>
+        <img src="../imgs/be.png" alt="Beth"/>
       </header>
-<main>
-  <h1>Best practices of ruby classes</h1>
-  <h4>02/05/2016</h4>
-  <section>
-    <p>
-      Ruby is an object-oriented programming language, it revolves around the process of defining and manipulating objects. However, sometimes we may want to categorize objects to be able to easily identify them. to make an object in ruby, first we need to define the characteristics of a class, then create an instance. A category of objects like "cat" is called a class, and some specific object belongings to a class is called an instance of that class.
-    </p>
-    <p>
-      To illustrate the process, let's first define a simple Cat class. So what are the attributes that cats have ? lets just say cats have name. We can set these class attributes as instance variables, denoted by a beginning @ symbol.
-    </p>
-    <xmp style= "color:red">
-      class Cat
-        def initialize(name)
-            @name = name
-        end
-        def talk
-             ” #{@name} is saying Meow Meow”
-        end
-      end
-    </xmp>
-    <p>
-      Instance variables are bound to the class and allow us to access it from any location inside the class. Instance methods are also bound to the class and they are instances of the class like <code>def talk</code>     method in the example.
-    </p>
-    <p>
-      All cats will fall under this class, allowing them to share the same methods and characteristics. A class definition is a block of code between the keywords <code>class,</code> and <code>end </code>. A def inside this block begins the definition of a method of the class , which corresponds to some specific behavior for objects of that class.
-    </p>
-    <p>now that we have defined our Cat class, we can use it to make a cat.
-    </p>
-    <xmp style="color:red"> kitten = Cat.new (“Kitty”) </xmp>
-    <p>
-      kitten is a name we have given to the new instance of the class Cat and Kitty is the name of our cat. The new method of any class makes a new instance. Because kitten is a Cat, it has whatever properties we decided a Cat should have. Since we only have one method on our class definition, Kitten can only do one thing which is talk
-    </p>
-    <xmp style="color:red"> Kitten.talk  #=>  Kitty is saying Meow Meow </xmp>
-    <p>
-      Making a new instance of a class is sometimes called instantiating that class. We need to have a Cat before we can experience the pleasure of its conversation; we can't simply ask the Cat class to say meow for us. It makes no more sense than trying to eat the concept of a sandwich with out having one.
-    </p>
-    <p>
-      We can use classes to represent any collection of things like cars, dogs, cats, and so on. Just consider what characteristics and behaviors the objects share. The instance variables will be the object's attributes while the methods represent the object's behavior.
-    </p>
-  </section>
-</main>
-  <aside>
-      <article>
-          <h3>Subscribe!</h3>
-          <a href="http://www.twitter.com/rahabett"><img src="../imgs/twitter.png" alt="twitter"/></a>
-          <a href="http://www.twitter.com/rahabett">Follow me on twitter</a>
-          <br>
-          <a href="http://www.linkedin.com"><img src="../imgs/Linkedin.png" alt="Linkedin"/></a>
-          <a href="http://www.linkedin.com"> Find me on linkedin</a>
-          <br>
-          <a href="https://github.com/rahabet"><img src="../imgs/github.png" alt="Github"/></a>
-          <a href="https://github.com/rahabet"> Github</a>
-        </article>
-        <article>
-          <h3>Popular Posts</h3>
-          <p>the link for the latest post goes here</p>
-        </article>
-    </aside>
-   <!--  <footer>
-        <nav>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="blog.html"> Blog</a></li>
-            <li><a href="project.html"> Project</a></li>
-            <li><a href="resume.html"> Resume</a></li>
-            <li><a href="contact.html"> Contact</a></li>
-          </ul>
-        <p>Copyright &copy;2016 Bethelhem </p>
+      <nav>
+        <ul>
+          <li class= "active"><a href="index.html">Home</a></li>
+          <li><a href="portfolio.html"> Portfolio</a></li>
+          <li><a href="blog.html"> Blog</a></li>
+          <li><a href="contact.html"> Contact</a></li>
+        </ul>
         <div class="clear"></div>
-        </nav>
-    </footer> -->
+      </nav>
+      <section class="text">
+        <h4>Ruby Classes</h4>
+        <p>
+          Ruby is an object-oriented programming language, it revolves around the process of defining and manipulating objects. However, sometimes we may want to categorize objects to be able to easily identify them. to make an object in ruby, first we need to define the characteristics of a class, then create an instance. A category of objects like "cat" is called a class, and some specific object belongings to a class is called an instance of that class.
+        </p>
+        <p>
+          To illustrate the process, let's first define a simple Cat class. So what are the attributes that cats have ? lets just say cats have name. We can set these class attributes as instance variables, denoted by a beginning @ symbol.
+        </p>
+        <xmp style= "color:#006633">
+          class Cat
+            def initialize(name)
+              @name = name
+            end
+            def talk
+              ”#{@name} is saying Meow Meow”
+            end
+          end
+        </xmp>
+        <p>
+          Instance variables are bound to the class and allow us to access it from any location inside the class. Instance methods are also bound to the class and they are instances of the class like <code>def talk</code> method in the example.
+        </p>
+        <p>
+          All cats will fall under this class, allowing them to share the same methods and characteristics. A class definition is a block of code between the keywords <code style= "color:#006633">class,</code> and <code style= "color:#006633">end </code>. A def inside this block begins the definition of a method of the class , which corresponds to some specific behavior for objects of that class.
+        </p>
+        <p>now that we have defined our Cat class, we can use it to make a cat.
+        </p>
+        <xmp>
+          kitten = Cat.new (“Kitty”)
+        </xmp>
+        <p>
+          kitten is a name we have given to the new instance of the class Cat and Kitty is the name of our cat. The new method of any class makes a new instance. Because kitten is a Cat, it has whatever properties we decided a Cat should have. Since we only have one method on our class definition, Kitten can only do one thing which is talk
+        </p>
+        <xmp>
+          Kitten.talk  #=>  Kitty is saying Meow Meow
+        </xmp>
+        <p>
+          Making a new instance of a class is sometimes called instantiating that class. We need to have a Cat before we can experience the pleasure of its conversation; we can't simply ask the Cat class to say meow for us. It makes no more sense than trying to eat the concept of a sandwich with out having one.
+        </p>
+        <p>
+          We can use classes to represent any collection of things like cars, dogs, cats, and so on. Just consider what characteristics and behaviors the objects share. The instance variables will be the object's attributes while the methods represent the object's behavior.
+        </p>
+  </section>
+<footer>
+        <div class="footer">
+          <p>Connect with me </p>
+          <ul>
+            <li><a href="http://www.github.com/rahabet"><img src="../imgs/github.png" alt="github"/></a></li>
+            <li><a href="http://www.twitter.com/rahabett"><img src="../imgs/twitter.png" alt="twitter"/></a></li>
+            <li><a href="http://www.linkedin.com/rahabett"><img src="../imgs/linkedin.png" alt="linkedin"/></a></li>
+          </ul>
+        </div>
+      </footer>
     </div>
-  </body>
+      <p style="text-align:center; padding:0px;">Copyright &copy;2016 Bethelhem </p>
+</body>
 </html>
-

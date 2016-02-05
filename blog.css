@@ -8,14 +8,13 @@
 }
 
 h5 {
-  color:#878E63;
-  font-size: 18px;
-  margin-left: 3em;
+color:#878E63;
+font-size: 20px;
+margin-left: 3em;
 }
 h4{
   color:#878E63;
-  margin-left: 2em;
-  padding:1%;
+  text-align: left;
 }
 
 .main-blog {
@@ -23,15 +22,9 @@ h4{
 }
 .date{
   display: table-row-group;
-  font-size: 14px;
+  font-size: 16px;
   text-indent: 4em;
   font-family: Garamond,serif;
-}
-section xmp{
-  color:#006633;
-  margin-left:0.5em;
-  letter-spacing:2px;
-  line-height:1.5em;
 }
 
 li h3 a{
