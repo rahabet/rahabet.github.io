@@ -1,87 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Blog</title>
-    <meta charset ="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./stylesheets/default.css" type="text/css">
-    <link rel="stylesheet" href="./stylesheets/blog.css" type="text/css">
-  </head>
-  <body>
+<html>
+<head>
+  <meta charset ="UTF-8"/>
+  <title>Home</title>
+  <meta name="viewport" content= "width=divice-width", initial-scale="1.0">
+  <link rel="stylesheet" href="./stylesheets/blog.css" type="text/css">
+  <link rel="stylesheet" href="./stylesheets/default.css" type="text/css">
+</head>
+<body>
     <div id="wrapper">
+      <div id="site">
+        <p>Welcome </p>
+      </div>
       <header>
-        <img src="imgs/bet.png" alt="Beth">
-        <nav>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="portfolio.html"> Portfolio</a></li>
-            <li><a href="blog.html"> Blog</a></li>
-            <li><a href="contact.html"> Contact</a></li>
-          </ul>
-        </nav>
+        <img src="imgs/be.png" alt="Beth"/>
       </header>
-      <section>
-        <table class="blog-post">
-          <tr>
-            <td><a href="http://rahabet.github.io/blog/git.html">Version Control System </a></td>
-            <td>Here is a post about version control, git and github</td>
-          </tr>
-          <tr>
-            <td><a href="http://rahabet.github.io/blog/css-concepts.html">Classes vs. Ids </a></td>
-            <td>Best practices associated with classes and ids</td>
-          </tr>
-          <tr>
-            <td><a href="http://rahabet.github.io/blog/online-security.html">Online Security </a></td>
-            <td>what is online security and what are the risks associated with it along with the measures needed to be taken</td>
-          </tr>
-          <tr>
-            <td><a href="http://rahabet.github.io/blog/arrays-hashes.html">Arrays and Hashes</a></td>
-            <td>  what are they and when to choose which</td>
-          </tr>
-          <tr>
-           <td><a href="http://rahabet.github.io/blog/enumerable-methods.html">Map it up !</a></td>
-            <td>  what map method is in ruby and what it does </td>
-          </tr>
-          <tr>
-            <td><a href="http://rahabet.github.io/blog/ruby-classes.html">Ruby Clasess</a></td>
-            <td>Best practices of Ruby Classes</td>
-          </tr>
-          <tr>
-            <td><a href="http://rahabet.github.io/blog/git.html">Blog-7 </a></td>
-            <td>discription</td>
-          </tr>
-        </table>
-
-      </section>
-      <aside>
-      <article>
-          <h3>Subscribe!</h3>
-          <a href="http://www.twitter.com/rahabett"><img src="imgs/twitter.png" alt="twitter"/></a>
-          <a href="http://www.twitter.com/rahabett">Follow me on twitter</a>
-          <br>
-          <a href="http://www.linkedin.com"><img src="imgs/Linkedin.png" alt="Linkedin"/></a>
-          <a href="http://www.linkedin.com"> Find me on linkedin</a>
-          <br>
-          <a href="https://github.com/rahabet"><img src="imgs/github.png" alt="Github"/></a>
-          <a href="https://github.com/rahabet"> Github</a>
-        </article>
-        <article>
-          <h3>Popular Posts</h3>
-          <p>the link for the latest post goes here</p>
-        </article>
-      </aside>
-      <footer>
-        <nav>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="project.html"> Portfolio</a></li>
-            <li><a href="blog.html"> Blog</a></li>
-            <li><a href="contact.html"> Contact</a></li>
-          </ul>
-        <p>Copyright &copy;2016 Bethelhem </p>
+      <nav>
+        <ul>
+          <li class= "active"><a href="index.html">Home</a></li>
+          <li><a href="portfolio.html"> Portfolio</a></li>
+          <li><a href="blog.html"> Blog</a></li>
+          <li><a href="contact.html"> Contact</a></li>
+        </ul>
         <div class="clear"></div>
-        </nav>
+      </nav>
+      <section class="main-blog">
+      <h5>Enjoy the posts by clicking the link below</h5>
+      <ul>
+        <li>
+          <h3><a href="http://rahabet.github.io/blog/enumerable-methods.html">newpost</a> <br> <span class="date">01/28/16 </span></h3>
+        </li>
+        <li>
+          <h3><a href="http://rahabet.github.io/blog/ruby-classes.html">Ruby Classes</a> <br> <span class="date">02/05/16 </span></h3>
+        </li>
+         <li>
+          <h3><a href="http://rahabet.github.io/blog/enumerable-methods.html">Map method in Ruby</a> <br> <span class="date">01/29/16 </span></h3>
+        </li>
+        <li>
+          <h3><a href="http://rahabet.github.io/blog/arrays-hashes.html">Arrays and Hashes in Ruby</a> <br> <span class="date">01/22/16 </span></h3>
+        </li>
+        <li>
+          <h3><a href="http://rahabet.github.io/blog/online-security.html"> What we need to know about Online Security </a> <br> <span class="date">01/22/16 </span></h3>
+        </li>
+        <li>
+          <h3><a href="http://rahabet.github.io/blog/css-concepts.html">Classes vs. Ids In Css</a> <br> <span class="date">01/14/16 </span></h3>
+        </li>
+        <li>
+          <h3><a href="http://rahabet.github.io/blog/git.html">Git,GitHub and Version Control System</a> <br> <span class="date">01/01/16</span></h3>
+        </li>
+      </ul>
+    </section>
+      <footer>
+        <div class="footer">
+          <p>Connect with me </p>
+          <ul>
+            <li><a href="http://www.github.com/rahabet"><img src="imgs/github.png" alt="github"/></a></li>
+            <li><a href="http://www.twitter.com/rahabett"><img src="imgs/twitter.png" alt="twitter"/></a></li>
+            <li><a href="http://www.linkedin.com/rahabett"><img src="imgs/linkedin.png" alt="linkedin"/></a></li>
+          </ul>
+        </div>
       </footer>
     </div>
-  </body>
+      <p style="text-align:center; padding:0px;">Copyright &copy;2016 Bethelhem </p>
+</body>
 </html>
+
+
