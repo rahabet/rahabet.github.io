@@ -108,10 +108,11 @@ img{
 .footer ul li a{
   text-decoration: none;
 }
-.footer ul li img{
-  float: center;
+.social-media{
+  display:inline;
   width:10%;
   height:10%;
+  margin-left: 45%
 }
 
 
