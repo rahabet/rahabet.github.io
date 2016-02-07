@@ -13,6 +13,7 @@ h5 {
   margin-left: 3em;
 }
 h4{
+  text-align: left;
   color:#878E63;
   margin-left: 2em;
   padding:1%;
@@ -27,11 +28,14 @@ h4{
   text-indent: 4em;
   font-family: Garamond,serif;
 }
-section xmp{
+.text xmp{
   color:#006633;
   margin-left:0.5em;
   letter-spacing:2px;
   line-height:1.5em;
+}
+.text code{
+  color:#006633;
 }
 
 li h3 a{
