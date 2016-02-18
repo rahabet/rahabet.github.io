@@ -22,6 +22,12 @@ h4{
 .main-blog {
   font-size: 16px;
 }
+.order{
+ color:#878E63;
+  width:85%;
+  margin-left: 5em;
+  line-height: 2em;
+}
 .date{
   display: table-row-group;
   font-size: 14px;
@@ -35,6 +41,10 @@ h4{
   line-height:1.5em;
 }
 .text code{
+  color:#006633;
+}
+.text img{
+  margin-left:30%;
   color:#006633;
 }
 

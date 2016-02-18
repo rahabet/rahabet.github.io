@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset ="UTF-8"/>
+  <title>TDD</title>
+  <meta name="viewport" content= "width=divice-width", initial-scale="1.0">
+  <link rel="stylesheet" href="../stylesheets/blog.css" type="text/css">
+  <link rel="stylesheet" href="../stylesheets/default.css" type="text/css">
+</head>
+<body>
+    <div id="wrapper">
+      <div id="site">
+        <p><a href="index.html">Welcome</a></p>
+      </div>
+      <header>
+        <img src="../imgs/be.png" alt="Beth"/>
+      </header>
+      <nav>
+        <ul>
+          <li class= "active"><a href="../index.html">Home</a></li>
+          <li><a href="../project.html"> Project</a></li>
+          <li><a href="../blog.html"> Blog</a></li>
+          <li><a href="../contact.html"> Contact</a></li>
+        </ul>
+        <div class="clear"></div>
+      </nav>
+      <section class="text">
+        <h4>Test Driven Development(TDD)</h4>
+        <p>
+          TDD is a programming technique or method of software development in which unit testing is repeatedly done on source code. It is a widely used approach for development which combines test-first development where you write a test before you write just enough production code to fulfill that test. The idea is to get something thats working now and you perfect it (refactor) later.
+        </p>
+        <p>
+          The goal of TDD is specification meaning that to think through your requirements or design before you write your functional code.TDD helps to cut development costs, it shorten the development time to market, it increase the programmer’s productivity, it provides an effective, organized and neat code that works, it shorten the development feedback time, it provides unmistakable proof that the software code works as intended and it also encourage the writing of a quality code
+        </p>
+        <p>
+          In the development environment there is a motto used for test-driven development which is “ Red, Green, Refactor.” Since TDD revolves around a short iterative development cycle, it works in a way that :
+        </p>
+        <img src="../imgs/tdd.png" alt="Beth"/>
+        <ol class="order">
+          <li>
+            Write a single unit test describing an aspect of the program
+          </li>
+          <li>
+            Red: Create a test and make it fail.  when you run the test, it should fail because the program lacks that feature.
+          </li>
+           <li>
+            Green: Make the test pass by any means necessary. Write “just enough” code, the simplest possible,to make the test pass.
+          </li>
+          <li>
+            Refactor: Once the code passes the test,Change the code to remove duplication in your project and to improve the design while ensuring that all tests still pass.
+          </li>
+          <li>
+            Repeat accumulating unit tests over time
+          </li>
+        </ol>
+        <p>
+          When a program has been developed using TDD, it allows us to make changes and test quickly and efficiently. If it passes all automated tests, then we are good to go but if it doesn’t, it just means we need to change some part of the code until it passes.
+        </p>
+      </section>
+      <footer>
+        <div class="footer">
+          <p>Connect with me </p>
+          <ul class="social-media">
+          <li><a href="http://www.github.com/rahabet"><img src="../imgs/github.png" alt="github"/></a></li>
+          <li><a href="http://www.twitter.com/rahabett"><img src="../imgs/twitter.png" alt="twitter"/></a></li>
+          <li><a href="https://www.linkedin.com/home?trk=nav_responsive_tab_home"><img src="../imgs/linkedin.png" alt="linkedin"/></a></li>
+          <li><a href="mailto:tad.martha@gmail.com"><img src="../imgs/mail.png" alt="github"/></a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+      <p class="copyright">Copyright &copy;2016 Bethelhem </p>
+</body>
+</html>
