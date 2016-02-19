@@ -1,0 +1,55 @@
+.container h1{
+  display: block;
+  width: 100%;
+  height:auto;
+  font-size: 30px;
+  text-align: center;
+  font-family: serif;
+  /*background-color: #CCC;*/
+  letter-spacing:0.1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.container p{
+  display: block;
+  width: 100%;
+  height:auto;
+  text-align: center;
+  font-family: serif;
+  /*background-color: #CCCCCC;*/
+  letter-spacing:0.1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.table tr,th{
+  background:#b3ffb3;
+  height:5em;
+}
+.table {
+    border-collapse: collapse;
+    border: 0.5px solid black;
+}
+
+/*.table tr,th,td {
+    border: 1px solid black;
+}*/
+.table tr{
+  width: 100%;
+  line-height: 2em;
+  margin-left: 2em;
+}
+.table td{
+  width:45%;
+}
+.table tr:nth-child(even){
+  background: #EEEEEE;
+}
+.table tr:nth-child(odd){
+  background: #FFFFFF;
+}
+
+
+
+
+
+
